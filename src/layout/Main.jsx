@@ -31,7 +31,7 @@ class Main extends React.Component {
 			<main className="container content">
 				<Search searchMovies={this.searchMovies}/>
 				{
-					!loading ? <Movies movies={movies}/> : <Preloader />
+					!loading ? <Movies movies={movies}/> : <Preloader/>
 				}
 
 			</main>
