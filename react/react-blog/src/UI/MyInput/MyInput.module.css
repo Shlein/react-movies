@@ -1,0 +1,11 @@
+.input {
+    padding: 10px 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid aquamarine;
+    margin-bottom: 20px;
+}
+
+.input:focus {
+    border-color: red;
+}

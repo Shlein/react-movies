@@ -1,0 +1,35 @@
+.post {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid aquamarine;
+    margin-bottom: 15px;
+}
+
+.post:last-child {
+    margin-bottom: 0;
+}
+
+.post__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post__body {
+
+}
+
+.post__btns {
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.post__btns button:not(:last-of-type) {
+    margin-right: 15px;
+}
